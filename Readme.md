@@ -6,21 +6,6 @@ Rust + wasm examples
 
 ### Rust
 
-* rust-wasm-01:
-  * from https://rustwasm.github.io/docs/book/game-of-life/introduction.html
-  * setup: 
-    * cargo install wasm-pack
-    * Check npm is installed: npm --version
-  * build project (build wasm file + js bindings):
-    * wasm-pack build
-  * setup web page:
-    * cd www && npm install
-  * run www:
-    * NODE_OPTIONS=--openssl-legacy-provider npm run start
-    * open browser to http://localhost:8080
-
-* logrocket wasm example: https://blog.logrocket.com/getting-started-with-webassembly-and-rust/ TODO
-
 * rust_to_wasm_the_hard_way_01:
   * from: https://surma.dev/things/rust-to-webassembly/ - part: "add functions"
   * build:
