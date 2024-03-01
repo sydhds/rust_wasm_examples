@@ -1,0 +1,17 @@
+[workspace]
+members = [
+    "rust_wasm_the_hard_way_01",
+    "rust_wasm_the_hard_way_02",
+    "rust_wasm_the_hard_way_03",
+    "rust_wasm_the_hard_way_04",
+]
+
+# [profile.release]
+# strip = true
+# # strip = "debuginfo" # strip but keep function name
+# lto = true # longer link time but can reduce size
+
+resolver = "2"
+
+
+

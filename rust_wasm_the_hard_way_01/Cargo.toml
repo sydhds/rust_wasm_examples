@@ -1,0 +1,13 @@
+[package]
+name = "rust_wasm_the_hard_way_01"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"] # rlyb is Rust own format lib, cdylib is a dynamic lib that is C compatible
+
+# In a workspace project, this needs to be specified at the workspace root
+# [profile.release]
+# strip = true
+
+[dependencies]

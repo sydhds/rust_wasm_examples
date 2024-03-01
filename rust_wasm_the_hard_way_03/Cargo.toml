@@ -1,0 +1,16 @@
+[package]
+name = "rust_wasm_the_hard_way_03"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+lol_alloc = { version = "0.4", optional = true }
+cfg-if = "1.0.0"
+
+[features]
+custom_alloc = []
+lol_alloc = ["dep:lol_alloc"]
+default = ["lol_alloc"]
