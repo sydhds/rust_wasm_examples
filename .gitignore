@@ -1,3 +1,6 @@
 target/
 
 rust_wasm_the_hard_way_04/pkg
+
+# IDE
+.idea

@@ -1,0 +1,10 @@
+[package]
+name = "rust_wasmer_01"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.80"
+wasmer = "4.2"
+wasmer-compiler-singlepass = "4.2"
+rand = "0.8.5"
