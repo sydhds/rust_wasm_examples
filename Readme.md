@@ -38,6 +38,8 @@ Rust + wasm examples
   * from: https://surma.dev/things/rust-to-webassembly/ - part: "wasm-bindgen"
   * build:
     * wasm-pack build --target nodejs
+  * run unit tests:
+    * wasm-pack test --node
   * run wasm file using Nodejs
     * `cd nodejs_tester && node index.js`
 * rust_wasmer_01: run basic wasm file using [wasmer](https://docs.rs/wasmer/latest/wasmer)
