@@ -4,7 +4,8 @@ members = [
     "rust_wasm_the_hard_way_02",
     "rust_wasm_the_hard_way_03",
     "rust_wasm_the_hard_way_04",
-    "rust_wasmer_01"
+    "rust_wasmer_01",
+    "rust_wasmer_02"
 ]
 
 # [profile.release]

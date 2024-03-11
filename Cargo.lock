@@ -873,6 +873,15 @@ dependencies = [
 ]
 
 [[package]]
+name = "rust_wasmer_02"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "wasmer",
+ "wasmer-compiler-singlepass",
+]
+
+[[package]]
 name = "rustc-demangle"
 version = "0.1.23"
 source = "registry+https://github.com/rust-lang/crates.io-index"

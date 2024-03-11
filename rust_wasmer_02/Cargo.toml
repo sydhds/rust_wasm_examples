@@ -1,0 +1,12 @@
+[package]
+name = "rust_wasmer_02"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dev-dependencies]
+anyhow = "1.0.80"
+wasmer = "4.2"
+wasmer-compiler-singlepass = "4.2"

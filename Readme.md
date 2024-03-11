@@ -40,9 +40,14 @@ Rust + wasm examples
     * wasm-pack build --target nodejs
   * run wasm file using Nodejs
     * `cd nodejs_tester && node index.js`
-* rust_wasmer_01: run wasm file using [wasmer](https://docs.rs/wasmer/latest/wasmer)
+* rust_wasmer_01: run basic wasm file using [wasmer](https://docs.rs/wasmer/latest/wasmer)
   * build the wasm file from rust_wasm_the_hard_way_01 
   * cargo run
+* rust_wasmer_02: run wasm file (read & write from wasm memory) 
+  * build the wasm file (lib.rs):
+    * cd rust_wasmer_02 && cargo build --target=wasm32-unknown-unknown --release
+  * run the wasm file using the example:
+    * cargo run --example wasmer_run
 
 * rust_wasmer_02: run minimalist C library in [wasmer](https://docs.rs/wasmer/latest/wasmer) TODO
 * rust_wasmer_03: run real example of C library in [wasmer](https://docs.rs/wasmer/latest/wasmer) TODO 
